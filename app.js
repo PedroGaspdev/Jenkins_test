@@ -7,7 +7,7 @@ app.get('/api/saudacao', (req, res) => {
 
 app.get('/api/soma', (req, res) => {
     const { a, b } = req.query;
-    const resultado = parseInt(a) + parseInt(b);
+    const resultado = parseInt(a);
     res.status(200).json({ resultado });
 });
 
