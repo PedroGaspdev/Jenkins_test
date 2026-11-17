@@ -1,0 +1,28 @@
+{
+  "name": "jenkins_test",
+  "version": "1.0.0",
+  "description": "Example of a apliccation with jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroGaspdev/Jenkins_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroGaspdev/Jenkins_test/issues"
+  },
+  "homepage": "https://github.com/PedroGaspdev/Jenkins_test#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.3.2"
+  }
+}
