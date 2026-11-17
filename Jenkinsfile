@@ -3,7 +3,7 @@ pipeline {
     
     tools {
         // Usa o nome exato que você configurou no Global Tool Configuration
-        nodejs 'node18' 
+        nodejs 'node20' 
     }
 
     stages {
