@@ -2,7 +2,6 @@ pipeline {
     agent any
     
     tools {
-        // Usa o nome exato que você configurou no Global Tool Configuration
         nodejs 'node20' 
     }
 
@@ -31,7 +30,7 @@ pipeline {
         stage('Simulação de Deploy') {
             steps {
                 echo 'Deploy realizado com sucesso em ambiente de testes!'
-                // Em um cenário real, aqui entraria um script para subir no servidor
+
             }
         }
     }
